@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Works Works</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Jiatong's Website</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="MyModel.html">My Models</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <h2>My Life</h2>
+
+    <div class="photo-wall">
+        <div class="arrow-button arrow-left" onclick="changePhoto(-1)">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="photos">
+            <div class="photo"><img src="Life/Life1.jpg" alt="Image 1"></div>
+            <div class="photo"><img src="Life/Life2.jpg" alt="Image 2"></div>
+            <div class="photo"><img src="Life/Life3.jpg" alt="Image 3"></div>
+            <div class="photo"><img src="Life/Life4.jpg" alt="Image 4"></div>
+            <div class="photo"><img src="Life/Life5.jpg" alt="Image 5"></div>
+        </div>
+        <div class="arrow-button arrow-right" onclick="changePhoto(1)">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+
+    <footer>
+        <p>&copy; 2023 Jiatong's Website</p>
+    </footer>
+</body>
+</html>
+
